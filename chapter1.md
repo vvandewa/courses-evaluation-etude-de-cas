@@ -26,9 +26,12 @@ A l'aide du package ... charger les données
 # Charger la librarie ggplot
 library(readr) 
 deces_mensuels = "https://assets.datacamp.com/production/repositories/4170/datasets/28a0c9bc5b08dd9f3db3ee93e4c5e6be4ea8609e/monthly_deaths.csv"
-dir.create("~/datasets")
+dir.create("datasets")
 par_clinique = "https://assets.datacamp.com/production/repositories/4170/datasets/d14eae8c81d12f2ea8d4a1433942b2b449d90fc6/yearly_deaths_by_clinic.csv"
 read_csv(par_clinique)
+file.copy(deces_mensuels, "datasets/yearly_deaths_by_clinic.csv", overwrite = recursive, recursive = FALSE,
+          copy.mode = TRUE, copy.date = FALSE)
+
 ```
 
 `@sample_code`

@@ -1,6 +1,6 @@
 ---
-title: 'Chapter Title Here'
-description: 'Chapter description goes here.'
+title: 'Environment  pour la réalisation de TP noté'
+description: 'Cet environnement contient déjà tout les packages nécessaire pour tester les commandes qui vous seront demandées dans le cadre du TP noté.'
 ---
 
 ## Example coding exercise
@@ -13,7 +13,7 @@ xp: 100
 skills: 1
 ```
 
-This is an example exercise.
+A l'aide du package ... charger les données
 
 `@instructions`
 
@@ -28,7 +28,7 @@ This is an example exercise.
 
 `@sample_code`
 ```{r}
-
+# Charger la librarie ggplot
 ```
 
 `@solution`
